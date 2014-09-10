@@ -83,7 +83,14 @@ $ git pull origin ブランチ名
 
 
 reset, stash全部効かない時
-git branch -D ブランチ名
+$ git branch -D ブランチ名
 
-git checkout develop
+$ git checkout develop
+
+リモートの古いブランチ削除
+$ git remote prune origin
+
+fetchするときに、古いブランチはいらないので一緒に消す
+$ git fetch --prune
+
 ```

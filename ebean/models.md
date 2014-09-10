@@ -1,4 +1,4 @@
-
+http://www.avaje.org/static/javadoc/pub/com/avaje/ebean/ExpressionList.html
 ```
 ExpressionList<SampleData> datalist = SampleData.find.where().[検索メソッド];
 

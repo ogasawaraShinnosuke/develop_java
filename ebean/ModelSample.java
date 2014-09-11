@@ -3,8 +3,7 @@ class ModelSample {
   
       public static List<Sample> findBySample() {
 
-        return new Model.Finder<Long, Sample>("MASTER", Long.class,
-                Sample.class).where().where()
+        return new Model.Finder<Long, Sample>("MASTER", Long.class, Sample.class).where().where()
                 
                 // OR条件
                 .disjunction()

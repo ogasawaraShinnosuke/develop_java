@@ -5,7 +5,7 @@ class ModelSample {
 
         return 
         
-              new Model.Finder<Object, Sample>("MASTER", Object.class, Sample.class).where().where()
+              new Model.Finder<Object, Sample>("MASTER", Object.class, Sample.class).where()
                 
                 // OR条件
                 .disjunction()

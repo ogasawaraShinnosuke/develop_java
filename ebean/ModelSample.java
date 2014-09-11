@@ -2,7 +2,7 @@ class ModelSample {
   
   
       public static List<Sample> findBySample() {
-        Finder<Long, Sample> finder = selectFinder(dbResouceType);
+
         return new Model.Finder<Long, Sample>("MASTER", Long.class,
                 Sample.class).where().where()
                 

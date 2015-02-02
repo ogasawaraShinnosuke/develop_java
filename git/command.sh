@@ -3,6 +3,9 @@
 ##HEADに戻す
 $ git reset --hard HEAD
 
+###ソースは残したい
+$ git reset --soft HEAD^
+
 ##他ブランチとのログ比較
 $ git log ブランチA ブランチB
 
